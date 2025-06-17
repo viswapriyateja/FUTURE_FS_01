@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">MyPortfolio</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button class="dark-mode-toggle" id="theme-toggle" title="Toggle dark mode">
+  🌙
+</button>
+  </header>
+
+  <section id="home" class="section home" data-aos="fade-up">
+    <div class="main-container">
+      <div class="image">
+        <img src="C:\Users\dell\Desktop\VISWA\11zon_cropped.png" alt="" width="25%" height="5%">
+      </div>
+    </div>
+    <div class="container">
+      <h2>Hello, I'm <span class="highlight">Viswa Priya Teja</span></h2>
+      <p>Frontend Developer |Creative Thinker</p>
+      <div class="social-links">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>         
+
+      </div>
+    <a href="#contact"><button class="submit">Contact Me</button></a>  
+    </div>
+  </section>
+<section id="about" class="about-section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-box">
+      <p>
+        Hi! I'm <strong>Viswa Priya Teja</strong>, a passionate <span class="highlight">Web Developer</span> skilled in 
+        <span class="highlight">HTML</span>, <span class="highlight">CSS</span>, 
+        <span class="highlight">Python</span>, <span class="highlight">SQL</span>, 
+        <span class="highlight">C</span>, and <span class="highlight">Git</span>.
+        I love building creative and responsive websites that deliver great user experiences.
+      </p>
+    </div>
+  </div>
+</section>
+<section id="education">
+  <h2>Education</h2>
+  <div class="education-box">
+    <h3>Bachelor of Technology in Computer Science</h3>
+    <p><strong>VKR,VNB & AGK College Of Engineering</strong> | 2022- 2026</p>
+    <p>CGPA: 8.08/ 10</p>
+  </div>
+
+  <div class="education-box">
+    <h3>Higher Secondary (Class 12)</h3>
+    <p><strong>Government Junior College</strong> | 2020 - 2022</p>
+    <p>Percentage: 64%</p>
+  </div>
+
+  <div class="education-box">
+    <h3>Secondary School (Class 10)</h3>
+    <p><strong>SNN Govt High School</strong> | 2018 - 2020</p>
+    <p>Percentage: 100%</p>
+  </div>
+</section>
+  <section id="resume">
+  <h2>My Resume</h2>
+  <div class="resume-container">
+    <div class="resume-text">
+      <p>I’m a passionate Web Developer skilled in HTML, CSS, Python, SQL, and Git. Download my resume to learn more about my education,internships,and personal details.</p>
+      <a href="file:///C:/Users/dell/Desktop/VISWA/resume.word.pdf" download class="resume-button">Download Resume</a>
+    </div>
+    <div class="resume-preview">
+      <img src="C:\Users\dell\Downloads\WhatsApp Image 2025-06-17 at 11.02.09 AM.jpeg" alt="Resume Preview">
+    </div>
+  </div>
+</section>
+ <section id="skillsSection">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+      <p>HTML</p>
+    </div><br>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+      <p>CSS</p>
+    </div><br>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" />
+      <p>C</p>
+    </div><br>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
+      <p>SQL</p>
+    </div><br>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+      <p>Python</p>
+    </div><br>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+      <p>Git</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact" data-aos="fade-up">
+  <div class="container">
+  <h2>Contact Me</h2><br>
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="5bf898e0-62b5-458e-9de6-8397e97e068d">
+    <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+    <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+    <textarea id="message" name="message" rows="5"  placeholder="Your Message" required></textarea><br><br>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+  </div>
+</section>
+  <footer>
+    <p>&copy; 2025 Viswa Priya Teja. All Rights Reserved.</p>
+  </footer>
+  <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>
