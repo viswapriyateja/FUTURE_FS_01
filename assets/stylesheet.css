@@ -262,51 +262,6 @@ footer {
   padding: 20px 0;
   margin-top: 50px;
 }
-/* Dark Mode */
-body.dark-mode {
-  background: #0f172a;
-  color: #f8fafc;
-}
-
-body.dark-mode header,
-body.dark-mode footer {
-  background: #1e293b;
-}
-
-body.dark-mode .skills-list li {
-  background: #3b82f6;
-}
-
-body.dark-mode form input,
-body.dark-mode form textarea {
-  background: #1e293b;
-  color: white;
-  border: 1px solid #3b82f6;
-}
-
-body.dark-mode form button {
-  background: #3b82f6;
-}
-
-.dark-mode-toggle {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
-  margin-left: auto;
-}
-
-.btn-download {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: #1d4ed8;
-  color: white;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-}
 <style>
   #resume {
     padding: 60px 20px;
